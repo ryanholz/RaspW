@@ -16,12 +16,12 @@ def hello():
         unixTime = float(theString)
         print(unixTime)
     data = {
-    "data": {
-        "name": "Zaphod Beeblebrox",
-        "species": "Betelgeusian"
+        "data": {
+            "name": "Zaphod Beeblebrox",
+            "species": "Betelgeusian"
+        }
     }
-    return json.dumps(data)
-}
+    return(json.dumps(data))
     
 if __name__ == "__main__":
     app.run()
