@@ -20,8 +20,8 @@ def hello():
         "name": "Zaphod Beeblebrox",
         "species": "Betelgeusian"
     }
-}
     return json.dumps(data)
+}
     
 if __name__ == "__main__":
     app.run()
